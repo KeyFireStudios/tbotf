@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-07T21:50:30.855Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="zDsbOd7DH5Fcp7ILt2I-" version="13.11.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-07T23:05:06.898Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="rLxC7a1-twRM09oSLcOF" version="13.11.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1422" dy="839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2031" dy="1199" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -8,16 +8,16 @@
           <mxGeometry x="10" y="10" width="290" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qbrfh7KyGv1r-v8un3VR-2" value="Endpoints" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1460" y="30" width="70" height="20" as="geometry" />
+          <mxGeometry x="2885" y="20" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="qbrfh7KyGv1r-v8un3VR-3" value="HTTP&lt;br&gt;Port 89" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1435" y="90" width="120" height="60" as="geometry" />
+          <mxGeometry x="2860" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qbrfh7KyGv1r-v8un3VR-4" value="TCP&lt;br&gt;Port 5482" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1435" y="180" width="120" height="60" as="geometry" />
+          <mxGeometry x="2860" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qbrfh7KyGv1r-v8un3VR-6" value="UDP&lt;br&gt;Port 2486" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DBDBDB;strokeColor=#545454;fontColor=#595959;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1435" y="270" width="120" height="60" as="geometry" />
+          <mxGeometry x="2860" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FkEPBGmqGNCc9ejBwm2h-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.018;entryY=0.183;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qbrfh7KyGv1r-v8un3VR-7" target="qbrfh7KyGv1r-v8un3VR-10">
           <mxGeometry relative="1" as="geometry" />
@@ -46,8 +46,9 @@
         <mxCell id="FkEPBGmqGNCc9ejBwm2h-2" value="UserDatabase" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="820" y="30" width="130" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="FkEPBGmqGNCc9ejBwm2h-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.001;entryY=0.194;entryDx=0;entryDy=0;fontColor=#595959;exitX=-0.03;exitY=0.2;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FkEPBGmqGNCc9ejBwm2h-3" target="FkEPBGmqGNCc9ejBwm2h-9">
+        <mxCell id="FkEPBGmqGNCc9ejBwm2h-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#595959;exitX=-0.03;exitY=0.2;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FkEPBGmqGNCc9ejBwm2h-3">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="213" as="targetPoint" />
             <Array as="points">
               <mxPoint x="793" y="20" />
               <mxPoint x="30" y="20" />
@@ -65,14 +66,109 @@
         <mxCell id="FkEPBGmqGNCc9ejBwm2h-6" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;bool UserExists()&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;Params: string username&lt;br&gt;Will search user index for the user, will return true if found, else false&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="800" y="210" width="300" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="FkEPBGmqGNCc9ejBwm2h-8" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;string GetUserNameBySteamId()&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;Params: string steamId&lt;/p&gt;&lt;p&gt;Will return the username associated with the username, if user does not exist, will return null&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="FkEPBGmqGNCc9ejBwm2h-8" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;string GetUsernameBySteamId()&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;Params: string steamId&lt;/p&gt;&lt;p&gt;Will return the username associated with the username, if user does not exist, will return null&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="800" y="310" width="350" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="FkEPBGmqGNCc9ejBwm2h-9" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;static void onInitComplete()&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;What happens once the server configuration and the user database finish loading, the server will start opening the Endpoints&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="50" y="190" width="264.75" height="120" as="geometry" />
+        <mxCell id="FkEPBGmqGNCc9ejBwm2h-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#595959;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FkEPBGmqGNCc9ejBwm2h-9" target="FkEPBGmqGNCc9ejBwm2h-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="280" />
+              <mxPoint x="330" y="210" />
+              <mxPoint x="720" y="210" />
+              <mxPoint x="720" y="70" />
+              <mxPoint x="1150" y="70" />
+              <mxPoint x="1150" y="92" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FkEPBGmqGNCc9ejBwm2h-9" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;static void onInitComplete()&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;What happens once the server configuration and the user database finish loading, the server will start opening the Endpoints&lt;br&gt;&lt;br&gt;Add HTTP callbacks:&lt;br&gt;&quot;/config&quot; =&amp;gt; ServerConfig.ToJSON();&lt;br&gt;&quot;/config/ver&quot; =&amp;gt; ServerConfig.Version;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="50" y="190" width="264.75" height="180" as="geometry" />
         </mxCell>
         <mxCell id="FkEPBGmqGNCc9ejBwm2h-10" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;void Set()&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;Params: string username, JSONNode data&lt;br&gt;Will write the data onto the disk, will also check if the user exists beforehand&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="800" y="530" width="330" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="FkEPBGmqGNCc9ejBwm2h-13" value="HTTP Server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1190" y="30" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FkEPBGmqGNCc9ejBwm2h-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#595959;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="FkEPBGmqGNCc9ejBwm2h-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1150" y="70" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1420" y="70" />
+              <mxPoint x="1420" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FkEPBGmqGNCc9ejBwm2h-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;fontColor=#595959;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FkEPBGmqGNCc9ejBwm2h-14" target="FkEPBGmqGNCc9ejBwm2h-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1160" y="125" />
+              <mxPoint x="1160" y="110" />
+              <mxPoint x="742" y="110" />
+              <mxPoint x="742" y="330" />
+              <mxPoint x="350" y="330" />
+              <mxPoint x="350" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FkEPBGmqGNCc9ejBwm2h-14" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;void Start()&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;Params: int port&lt;br&gt;Will initialize and start a HTTP server on the port specified in the parameter.&lt;br&gt;Exceptions:&lt;br&gt;&amp;nbsp; OutOfBoundsException - The port is not realistic&lt;br&gt;&amp;nbsp;&amp;nbsp;SocketException - Most occur when the port is already in use by another program&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1170" y="70" width="236.5" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="FkEPBGmqGNCc9ejBwm2h-15" value="TCP Listener" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1480" y="20" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FkEPBGmqGNCc9ejBwm2h-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.112;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#595959;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FkEPBGmqGNCc9ejBwm2h-16" target="FkEPBGmqGNCc9ejBwm2h-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="120" />
+              <mxPoint x="750" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FkEPBGmqGNCc9ejBwm2h-16" value="&lt;h1&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;JSONServer()&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1440" y="100" width="236.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FkEPBGmqGNCc9ejBwm2h-18" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;void on()&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;Params: string rule, HttpEventHandler callback&lt;br&gt;Will add a callback when a request comes in, must be exact match (not case-sensitive). It will call the callback when a instance appears&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1170" y="250" width="236.5" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="FkEPBGmqGNCc9ejBwm2h-19" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;void removeEvent()&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;Params: string rule&lt;br&gt;Will remove a event rule, if a event does not exist, will will do nothing&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1170" y="400" width="236.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="FkEPBGmqGNCc9ejBwm2h-20" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;void Stop()&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;Params: -none-&lt;br&gt;Will stop the server&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1170" y="500" width="236.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FkEPBGmqGNCc9ejBwm2h-22" value="No descriptions because a Github repo exists for SimpleJSON.Net where you can find info" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1450" y="45.38" width="190" height="44.62" as="geometry" />
+        </mxCell>
+        <mxCell id="FkEPBGmqGNCc9ejBwm2h-23" value="&lt;h1&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;void broadcast()&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1440" y="150" width="236.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FkEPBGmqGNCc9ejBwm2h-24" value="&lt;h1&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;Close()&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1440" y="200" width="236.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FkEPBGmqGNCc9ejBwm2h-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.015;exitY=0.122;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontColor=#595959;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FkEPBGmqGNCc9ejBwm2h-27" target="FkEPBGmqGNCc9ejBwm2h-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="334" y="379" />
+              <mxPoint x="350" y="379" />
+              <mxPoint x="350" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FkEPBGmqGNCc9ejBwm2h-27" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;static void onNewConnection()&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;Params: JSONSocket user&lt;br&gt;Startsby sending a &quot;start&quot; event, and waits for a version packet, to verify that the client is up to date. After that, remove the version callback and adds callbacks for &quot;steamLogin&quot;, &quot;login&quot;, &quot;register&quot;, and all three do stuff differently and if login is successful remove the events and add the client to lobby. After three failed attempts disconnect the client&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="50" y="360" width="280" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="FkEPBGmqGNCc9ejBwm2h-29" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;static void onDisconnect()&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;Params: JSONSocket user&lt;/p&gt;&lt;p&gt;What happens when a client disconnects&lt;/p&gt;&lt;p&gt;Passes the message to lobby and log that the client disconnected&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="50" y="540" width="280" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="FkEPBGmqGNCc9ejBwm2h-32" value="Lobby" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1750" y="20" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FkEPBGmqGNCc9ejBwm2h-33" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;void AddUser()&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;Params: JSONSocket user&lt;br&gt;Will add the player to its own player list remove irrelevant events and adds lobby events to the socket&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1730" y="60" width="236.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="FkEPBGmqGNCc9ejBwm2h-34" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;void RemoveUser()&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;Params: JSONSocket user&lt;br&gt;Will remove a user from the player list. If user is not in the player list, then this function does nothing&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1730" y="170" width="236.5" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
