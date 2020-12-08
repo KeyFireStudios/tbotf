@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-07T23:05:06.898Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="rLxC7a1-twRM09oSLcOF" version="13.11.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-08T16:02:20.774Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="jjxxyhYdAXISZxKK7DMK" version="13.11.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2031" dy="1199" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1673" dy="987" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -146,12 +146,12 @@
         <mxCell id="FkEPBGmqGNCc9ejBwm2h-24" value="&lt;h1&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;Close()&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1440" y="200" width="236.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FkEPBGmqGNCc9ejBwm2h-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.015;exitY=0.122;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontColor=#595959;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FkEPBGmqGNCc9ejBwm2h-27" target="FkEPBGmqGNCc9ejBwm2h-29">
+        <mxCell id="FkEPBGmqGNCc9ejBwm2h-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.015;exitY=0.122;exitDx=0;exitDy=0;fontColor=#595959;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FkEPBGmqGNCc9ejBwm2h-27" target="FkEPBGmqGNCc9ejBwm2h-29">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="334" y="379" />
               <mxPoint x="350" y="379" />
-              <mxPoint x="350" y="570" />
+              <mxPoint x="350" y="560" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -159,7 +159,7 @@
           <mxGeometry x="50" y="360" width="280" height="180" as="geometry" />
         </mxCell>
         <mxCell id="FkEPBGmqGNCc9ejBwm2h-29" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;static void onDisconnect()&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;Params: JSONSocket user&lt;/p&gt;&lt;p&gt;What happens when a client disconnects&lt;/p&gt;&lt;p&gt;Passes the message to lobby and log that the client disconnected&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="50" y="540" width="280" height="130" as="geometry" />
+          <mxGeometry x="50" y="540" width="280" height="140" as="geometry" />
         </mxCell>
         <mxCell id="FkEPBGmqGNCc9ejBwm2h-32" value="Lobby" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1750" y="20" width="130" height="20" as="geometry" />
@@ -169,6 +169,21 @@
         </mxCell>
         <mxCell id="FkEPBGmqGNCc9ejBwm2h-34" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;void RemoveUser()&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;Params: JSONSocket user&lt;br&gt;Will remove a user from the player list. If user is not in the player list, then this function does nothing&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1730" y="170" width="236.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="FkEPBGmqGNCc9ejBwm2h-37" value="GaragePanelUI" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2060" y="30" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FkEPBGmqGNCc9ejBwm2h-38" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;void onEnable()&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;Params: -none-&lt;br&gt;Goes to the main panel in garage, updates crystal counter&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2040" y="70" width="236.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="FkEPBGmqGNCc9ejBwm2h-39" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;void setPanel()&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;Params: string panelName&lt;br&gt;Checks if the object panel is already loaded with the info, if it is update it, if not load the info and render stuff&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2040" y="190" width="236.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="FkEPBGmqGNCc9ejBwm2h-40" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;void buyItem()&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;Params: string itemId&lt;br&gt;Buys an item in the shop. Client does local checks before sending a request to the server.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2040" y="310" width="236.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="FkEPBGmqGNCc9ejBwm2h-41" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;void buyItem()&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;Params: string itemId&lt;br&gt;Equips and item from the shop, client also checks locally if this is possible before continuing to send the message to the server&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2040" y="430" width="236.5" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
